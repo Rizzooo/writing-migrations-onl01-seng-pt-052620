@@ -1,7 +1,5 @@
 class CreateStudents < ActiveRecord::Migration[5.1]
   def change 
-    sql = <<-SQL
-      
-    SQL
+    create_table
   end
 end
